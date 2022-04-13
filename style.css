@@ -1,0 +1,26 @@
+body::before {
+  display: block;
+  content: '';
+  height: 60px;
+}
+
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
+
+.item1 {
+  width: 80%;
+  height: 200px;
+}
+
+#heading2 {
+  padding-bottom: 25px;
+}
+
+.img-fluid {
+  align-items: center;
+  padding-left: 20px;
+  width: 80%; 
+}
